@@ -1,0 +1,175 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+body{
+    font-family: 'Spartan', sans-serif;
+    background: url(images/bg-pattern-top-desktop.svg) top left no-repeat, url(images/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+}
+
+h1 ,h6{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+h1
+{
+    font-size: 37px;
+}
+h6{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+h2,h3
+{
+    font-size: 15px;
+}
+h2{
+    font-weight: 700;
+    color: white;
+}
+h3
+{
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+img
+{
+    width: 15px;
+    height: 15px;
+    padding: 0;
+}
+.profile-pic
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 20px 0 0;
+}
+.container
+{
+    width: 80%;
+    margin: 5% auto;
+}
+.main-title
+{
+    padding-left: 0;
+    padding-right: 10%;
+}
+p.main-p
+{
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+}
+
+.card.card-rating
+{
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    padding: 2%;
+    width: 85%;
+    border: 1px solid hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card-rating-2
+{
+    margin-left: 10%;
+}
+.card-rating-3
+{
+    margin-left: 20%;
+}
+.card{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+}
+
+.profile-header
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-reviwe
+{
+    justify-content: space-between;
+    padding: 5% 2% 2%;
+    border-radius: 10px;
+}
+.row-reviwe
+{
+    margin-top: 75px;
+}
+.card-reviwe.card-colton
+{
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.card-reviwe.card-irene
+{
+    margin-right:25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card-reviwe.card-anne
+{
+    margin-top: 50px;
+}
+.card-reviwe p{
+    font-size: 12px;
+}
+
+@media (max-width:575px) {
+    body
+    {
+        background: url(images/bg-pattern-top-mobile.svg) top left no-repeat, url(images/bg-pattern-bottom-mobile.svg) bottom right no-repeat;
+        text-align: center;
+    }
+    .container
+{
+    width: 90%;
+    margin: 15% auto;
+}
+.main-title
+{
+    padding: 0;
+}
+.card.card-rating
+{
+    width: 100%;
+}
+.card-rating-2
+{
+    margin-left: 0;
+}
+.card-rating-3
+{
+    margin-left: 0;
+}
+.card-reviwe
+{
+    padding: 10% 5%;
+    border-radius: 10px;
+    text-align: left;
+}
+.row-reviwe
+{
+    margin-top: 50px;
+}
+.card-reviwe.card-colton
+{
+    margin: 10px auto;
+}
+.card-reviwe.card-irene
+{
+    margin: 10px auto;
+}
+.card-reviwe.card-anne
+{
+    margin:10px auto;
+}
+}
